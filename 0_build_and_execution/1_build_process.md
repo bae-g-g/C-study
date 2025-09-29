@@ -14,28 +14,31 @@
 
 ## **Compile**
 
-CPU에서 실행 가능한 파일(.exe) 생성(Compile)
-① 컴파일러가 개발자가 작성한 소스 코드(.c / .cpp) 파일 Open
-② Open한 소스 코드를 위 ➝ 아래로 해석
-Ref) Syntax Analysis (Tockenisation + Syntax Tree) 수행
-③ 개발자가 작성한 소스 코드(.c / .cpp) ➝ 컴퓨터가 해석할 수 있는 기계어(.exe)
-Ref) Semantic Analysis (Scope Rules) 수행
-개발자 소스 코드 (컴퓨터는 해석 X): Hard Disk
-↓ Compile
-컴퓨터 기계어 (컴퓨터는 해석 O): CPU
-④ CPU에서 실행 가능한 파일 (.exe) 생성 (특정 OS 운영체제에 맞는 기계어 형태로 구성)
+### CPU에서 실행 가능한 파일(.exe) 생성(Compile)
+
+1. 컴파일러가 개발자가 작성한 소스 코드(.c / .cpp) 파일 Open
+2. Open한 소스 코드를 위 ➝ 아래로 해석
+    * Ref) Syntax Analysis (Tockenisation + Syntax Tree) 수행
+3. 개발자가 작성한 소스 코드(.c / .cpp) ➝ 컴퓨터가 해석할 수 있는 기계어(.exe)
+    * Ref) Semantic Analysis (Scope Rules) 수행
+    * 개발자 소스 코드 (컴퓨터는 해석 X): Hard Disk
+
+> `↓ Compile`  : 컴퓨터 기계어 (컴퓨터는 해석 O): CPU
+
+4.  CPU에서 실행 가능한 파일 (.exe) 생성 (특정 OS 운영체제에 맞는 기계어 형태로 구성)
 ∴ Window OS와 Mac OS와 실행 결과 상이
-⑤ Hard Disk에 할당
+
+5. Hard Disk에 할당
 
 ## **Run**
 
-CPU에서 실행 가능한 파일(.exe) 실행(Run)
-① OS에 의해 Hard Disk에 할당된 실행 가능한 파일(.exe)을 Memory(RAM)에 복사 할당(Loading)
-② OS에 의해 실행가능한 파일(.exe)에서 Programme(Code) 진입점(RAM에서 주소값) 탐색
-③ OS에 의해 진입점(RAM에서 주소값)을 CPU에 전달
-④ CPU에 의해 진입점(RAM에서 주소값)에 접근하여 주소값 下에 저장된 기계어 실행
-CPU
-Memory에서 (주소값 下에 저장된 기계어) 명령어를 읽어 실행하는 Hardware
+### CPU에서 실행 가능한 파일(.exe) 실행(Run)
+1. OS에 의해 Hard Disk에 할당된 실행 가능한 파일(.exe)을 Memory(RAM)에 복사 할당(Loading)
+2. OS에 의해 실행가능한 파일(.exe)에서 Programme(Code) 진입점(RAM에서 주소값) 탐색
+3. OS에 의해 진입점(RAM에서 주소값)을 CPU에 전달
+4. CPU에 의해 진입점(RAM에서 주소값)에 접근하여 주소값아래 실제 저장된 기계어 실행
+
+Memory에서 (주소값에 실제 저장된 기계어) 명령어를 읽어 실행하는 Hardware
 ROM
 Computer Booting System Information, Bios/Firmware Software, Initialisation, etc.,에
 필요한 변경 불가능/어려운 기본 Codes를 할당하는데 사용

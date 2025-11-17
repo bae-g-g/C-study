@@ -57,7 +57,7 @@ int num2 = strtol(str2,NULL,2);
 
 >문자열에 지정한 형식으로 저장한다. <br>
 > 문자열에 저장 성공시 byte수, 실패시 0 반환 <br>
-> 마지막에 '\0'자동 저장 <br수
+> 마지막에 '\0'자동 저장 <br>
 > 진수 변환뿐 아니라 파싱에 자주사용하는 편리한 api <br>
 
 
@@ -71,28 +71,6 @@ printf("%s",buf); // 출력 : A;
 
 ```
 
-
-
-## 정수 -> 문자열
-
-
-### int sprintf(char* str, const char* format,...)
-
->문자열에 지정한 형식으로 저장한다. <br>
-> 문자열에 저장 성공시 byte수, 실패시 0 반환 <br>
-> 마지막에 '\0'자동 저장 <br수
-> 진수 변환뿐 아니라 파싱에 자주사용하는 편리한 api <br>
-
-
-```
-char buf[100];
-int num = 10;
-
-sprintf(buf,"%X",num);
-
-printf("%s",buf); // 출력 : A;
-
-```
 
 
 

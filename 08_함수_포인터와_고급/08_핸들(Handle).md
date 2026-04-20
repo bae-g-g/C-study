@@ -168,7 +168,6 @@ _\-_ _System_ _&_ _Application Programme_ + _Handle Operation_
 
 # Merit 이점
 
-## ※ Capability ([https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7298](https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7298))
 
 # Operation 동작
 
@@ -182,8 +181,3 @@ _\-_ _System_ _&_ _Application Programme_ + _Handle Operation_
 
 ## ④ Non Capability-Based System + Capability
 
-# Application 적용
-
-## ⓐ Unix - File Descipter ([https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7318](https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7318))
-
-## ⓑ Windows - HWND ([https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7338](https://doc.clickup.com/d/h/8ca07k8-22/5cfed3da07fe658/8ca07k8-7338))

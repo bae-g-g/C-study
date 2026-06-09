@@ -1,8 +1,35 @@
-# ※ Handle
+# 08. 핸들(Handle)
+
+<!-- EDUCATION-CONTEXT:START -->
+<p align="right">
+  <a href="../README.md">전체 목차</a> · <a href="./README.md">단원 목차</a>
+</p>
+
+## 학습 안내
+
+> 단원: [08. 함수 포인터와 고급](./README.md)  
+> 이전 학습: [07. 동기 논블로킹](./07_동기_논블로킹.md)  
+> 다음 학습: [01. 비트 연산](../09_임베디드_C/01_비트_연산.md)
+
+### 학습 목표
+
+- 핸들(Handle)의 핵심 개념과 사용 목적을 설명할 수 있다.
+- 예제 코드를 읽고 실행 흐름과 결과를 단계별로 추적할 수 있다.
+- 이전 단원에서 배운 개념과 다음 단원에서 이어질 내용을 연결할 수 있다.
+
+### 수업 흐름
+
+1. Terminology Definition & Understanding
+2. System 시스템
+3. Application Programme 응용프로그램 (= User 사용자)
+4. System & Application Programme 시스템과 응용프로그램
+5. Definition 정의
+6. Usability 사용성
+<!-- EDUCATION-CONTEXT:END -->
 
 * * *
 
-# Terminology Definition & Understanding
+## Terminology Definition & Understanding
 
 | Server                                 | PC                                  |
 | -------------------------------------- | ----------------------------------- |
@@ -10,26 +37,28 @@
 | Handle →<br> 핸들 승인 및 복사 → 전달  | ← Handle<br> 핸들 요청 및 유지/삭제 |
 
 ## System 시스템
-*   OS 운영체제
-*   Database 데이터베이스
+- OS 운영체제
+- Database 데이터베이스
 
 ⓐ Internet Server 인터넷 서버
 
 ⓑ Intranet Server 인트라넷 서버
 
-→ 서버 : "시스템"
+- → 서버 : "시스템"
 
-→ 웹사이트 : "시스템"에서 생산하고 관리하는 결과물
+- → 웹사이트 : "시스템"에서 생산하고 관리하는 결과물
 
 ## Application Programme 응용프로그램 (= User 사용자)
-*   PC에서 "유저"가 실행하는 모든 작업 O → 유저프로그램
-*   PC에서 "관리자"가 실행하는 모든 작업 X → 시스템프로그램
-Ref)
-응용프로그램의 "관리자모드" 실행
-→ 유저를 위해 만들어진 응용프로그램을 관리자만 접근 할 수 있는 리소스에 접근하기 위함
+- PC에서 "유저"가 실행하는 모든 작업 O → 유저프로그램
+- PC에서 "관리자"가 실행하는 모든 작업 X → 시스템프로그램
+- 참고: 
+
+### 응용프로그램의 "관리자모드" 실행
+
+- → 유저를 위해 만들어진 응용프로그램을 관리자만 접근 할 수 있는 리소스에 접근하기 위함
 
 ## System & Application Programme 시스템과 응용프로그램
-*   _Example #1)_
+- _Example #1)_
 
 _Google-Use_
 
@@ -72,7 +101,7 @@ _\-_ _System_ _&_ _Application Programme_
 | 실행 요청 받음<br>실행 요청 승인 →     |                                    |                                                     |
 |                                        |                                    | 실행                                                |
 
-*   _Example #2)_
+- _Example #2)_
 
 _Google-Use_
 
@@ -162,14 +191,14 @@ _\-_ _System_ _&_ _Application Programme_ + _Handle Operation_
 |                                                                                                    |                                                                                                  | 실행                                                       |
 |                                                                                                    |                                                                                                  | Capability (사용권한) 삭제                                 |
 
-# Definition 정의
+## Definition 정의
 
-# Usability 사용성
+## Usability 사용성
 
-# Merit 이점
+## Merit 이점
 
 
-# Operation 동작
+## Operation 동작
 
 ## Prerequisite Understanding 사전 이해
 
@@ -181,3 +210,7 @@ _\-_ _System_ _&_ _Application Programme_ + _Handle Operation_
 
 ## ④ Non Capability-Based System + Capability
 
+---
+<!-- LESSON-NAV:START -->
+[이전: 07. 동기 논블로킹](./07_동기_논블로킹.md) · [단원 목차](./README.md) · [다음: 01. 비트 연산](../09_임베디드_C/01_비트_연산.md)
+<!-- LESSON-NAV:END -->

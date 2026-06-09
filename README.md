@@ -2,16 +2,9 @@
 
 멘토링용으로 만든 C 언어 학습 자료를 교육 과정처럼 따라갈 수 있도록 정리한 저장소입니다.
 
-각 단원은 개념 설명, 예제 코드, 그림 자료를 함께 보면서 C의 실행 모델을 단계적으로 이해하는 흐름으로 구성되어 있습니다. 빌드와 컴파일러 내용은 준비 단원으로 분리했습니다.
+각 단원은 개념 설명, 예제 코드, 그림 자료를 함께 보면서 C의 실행 모델을 단계적으로 이해하는 흐름으로 구성되어 있습니다
 
-<table>
-  <tr>
-    <td align="center"><img src="./02_입출력_및_연산자/img/IO.png" height="120" alt="입출력 개념도"><br><sub>입출력</sub></td>
-    <td align="center"><img src="./04_배열과_문자열/img/J.png" height="120" alt="배열 인덱스"><br><sub>배열</sub></td>
-    <td align="center"><img src="./06_포인터_기초/img/P1.png" height="120" alt="포인터 주소값"><br><sub>포인터</sub></td>
-    <td align="center"><img src="./07_함수_인자와_메모리/img/CBV.png" height="120" alt="값에 의한 전달"><br><sub>함수 인자</sub></td>
-  </tr>
-</table>
+
 
 ## 학습 흐름
 
